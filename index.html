@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandera de México</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <h1>Bandera de México</h1>
+
+        <section class="controles">
+
+            <!-- CONTROL VERDE -->
+            <div class="control">
+                <label for="verde">
+                    Esperanza
+                </label>
+
+                <input
+                    type="range"
+                    id="verde"
+                    min="0"
+                    max="10"
+                    value="5"
+                >
+
+                <span id="valorVerde">#009900</span>
+            </div>
+
+
+            <!-- CENTRO -->
+            <div class="control unidad">
+                <label>Unidad</label>
+                <span>#FFFFFF</span>
+            </div>
+
+
+            <!-- CONTROL ROJO -->
+            <div class="control">
+                <label for="rojo">
+                    Sangre de nuestros héroes nacionales
+                </label>
+
+                <input
+                    type="range"
+                    id="rojo"
+                    min="0"
+                    max="10"
+                    value="5"
+                >
+
+                <span id="valorRojo">#9D0000</span>
+            </div>
+
+        </section>
+
+
+        <!-- BANDERA -->
+        <section class="bandera">
+
+            <div
+                id="franjaVerde"
+                class="franja verde">
+            </div>
+
+
+            <div class="franja blanco">
+
+                <!-- Representación sencilla del escudo -->
+                <div class="escudo">
+    <img src="img/escudo.png" alt="Escudo de México">
+</div>
+
+            </div>
+
+
+            <div
+                id="franjaRoja"
+                class="franja rojo">
+            </div>
+
+        </section>
+
+        <div class="nombre">
+           
+    Carlos Uriel Gutierrez del Lojo  "23200844"
+</div>
+
+
+    </main>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
